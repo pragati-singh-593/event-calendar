@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Event Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based Event Calendar application that allows users to create and schedule events using a calendar interface. Users can enter an event title, select its start and end date and time, and view the added events in the calendar.
+
+## Live Demo
+
+[View Event Calendar](https://event-calendar-ps593.netlify.app/)
+
+## Overview
+
+The Event Calendar is a web application built with React.js that provides a simple interface for managing scheduled events.
+
+It uses the `react-big-calendar` library to display events in a calendar layout and `react-datepicker` to select event dates and times. Moment.js is used to configure date localization for the calendar.
+
+## Features
+
+- Add new events with a custom title.
+- Select event start dates and times.
+- Select event end dates and times.
+- Display scheduled events in a calendar interface.
+- View events with their corresponding start and end times.
+- Manage calendar events through React state.
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Programming Language:** JavaScript
+- **Calendar Library:** React Big Calendar
+- **Date and Time Picker:** React Datepicker
+- **Date Utility:** Moment.js
+- **Styling:** CSS
+- **Development Environment:** Create React App
+
+## Getting Started
+
+Follow these instructions to run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/pragati-singh-593/event-calendar.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd event-calendar
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and visit:
+
+   ```text
+   http://localhost:3000
+   ```
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+|---|---|
+| `npm start` | Runs the application in development mode |
+| `npm run build` | Creates an optimized production build |
+| `npm test` | Runs the test suite |
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```text
+event-calendar/
+├── public/
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── Calendar.js
+│   └── index.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Future Improvements
 
-### `npm test`
+- Add functionality to edit existing events.
+- Allow users to delete scheduled events.
+- Implement event validation, including start and end time checks.
+- Add event categories and color coding.
+- Persist events using local storage or a database.
+- Improve the calendar's responsive layout.
+- Add different calendar views, such as day, week, and month.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Author
 
-### `npm run build`
+**Pragati Singh**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [pragati-singh-593](https://github.com/pragati-singh-593)
+- Project Repository: [event-calendar](https://github.com/pragati-singh-593/event-calendar)
